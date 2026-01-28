@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+  background: linear-gradient(rgb(241, 233, 176), #f0ead6);
+}
+
+#header {
+  width: 1920px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 5px solid silver;
+
+}
+#footer{
+  margin-top: 1250px ;
+  width: 1920px;
+  height: 150px;
+  border-top: 5px solid silver;
+  background-color: black;
+  overflow: hidden;
+}
+#timer{
+  border-radius: 45px;
+  margin-bottom: 35px;
+  margin: 75px 0px 0px 525px;
+  width: 700px;
+  height: 200px;
+  background: radial-gradient(circle, #bb7dca, #c096d8);
+  position:absolute ;
+  font-size: 85px;
+  padding-top:60px;
+  padding-left: 45px;
+  font-family: "Luckiest Guy", cursive;
+border: black solid 6px;;
+}
+.article-1{
+  margin-top: 220px;
+  border-radius: 45px;
+  margin-left: 50px;
+  width:310px;
+  height: 750px;
+background: radial-gradient(circle, #c2ecdb, #9fbbb2);
+  position: absolute;
+  border: 8px  dashed black;
+}
+.article-2{
+  margin-top: 500px;
+  border-radius: 45px;
+  margin-left: 1450px;
+  width:310px;
+  height: 700px;
+  background-color: rgb(113, 160, 144);
+  position: absolute;
+  background: radial-gradient(circle, #c2ecdb, #9fbbb2);
+  border: 8px dashed black;
+}
+.timer-text{
+  padding: 25px;
+  font-size: 200px;
+}
+.text-data-role{
+  font-size:75px;
+  padding-left: 25px;
+  padding-top: 20px;
+line-height: 110px;
+ font-family: "Meie Script", cursive;
+  font-weight: 800px;
+  font-style: normal;
+}
+.photo-tg-D{
+  border: 5px dotted rgb(33, 160, 219);
+  weight: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top:130px;
+  margin-left:1600px;
+  transform: rotate(14deg);
+  position: absolute;
+}
+.photo-tg-A{
+   border: 5px dotted rgb(219, 33, 173);
+  weight: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top:130px;
+  margin-left:1350px;
+  transform: rotate(-14deg);
+  position: absolute;
+}
+.photo-date{
+  width: 225px;
+  height: 225px;
+  transform: rotate(0deg);
+  margin-left:125px;
+  position: absolute;
+}
+.photo-ava{
+  position: absolute;
+  margin-left: 1475px;
+  weight: 150px;
+  height: 150px;
+  transform: rotate(15deg);
+}
+.photo-ava-2{
+  position: absolute;
+  margin-left: 1600px;
+  weight: 150px;
+  height: 150px;
+  transform: rotate(-15deg);
+  margin-top:310px;
+}
+.photo-hihi{
+  weight:150px;
+  height: 80px;
+  position: absolute;
+  margin-left:875px;
+}
+.photo-slova{
+  height: 150px;
+  position: absolute;
+  margin-left:1300px;
+margin-top: 1000px;
+}
+.text-slova-role{
+  font-size:40px;
+  padding-left: 25px;
+  padding-top: 20px;
+line-height: 50px;
+ font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.photo-logo{
+  height: 60px;
+weight: 100px;
+margin-left: 875px;
+}
+.photo-traktor{
+  height: 250px;
+  margin-left: 430px;
+    margin-top: 450px;
+    transform: rotate(-15deg);
+  position: absolute;
+}
+.photo-krik{
+  height: 250px;
+  margin-left: 600px;
+    margin-top: 500px;
+    transform: rotate(10deg);
+  position: absolute;
+}
+
+.photo-ochki{
+  height: 250px;
+  margin-left: 740px;
+    margin-top: 790px;
+    transform: rotate(0deg);
+  position: absolute;
+}
+.photo-cveti{
+  height: 250px;
+  margin-left: 580px;
+    margin-top: 660px;
+    transform: rotate(-10deg);
+  position: absolute;
+}
+.photo-voda{
+  height: 250px;
+  margin-left: 1140px;
+    margin-top: 490px;
+    transform: rotate(14deg);
+  position: absolute;
+}
+.photo-cveti-2{
+  height: 250px;
+  margin-left: 926px;
+    margin-top: 640px;
+    transform: rotate(10deg);
+  position: absolute;
+}
+.photo-dvor{
+  height: 250px;
+  margin-left: 985px;
+    margin-top: 510px;
+    transform: rotate(-15deg);
+  position: absolute;
+}
+.photo-ochki-2{
+  height: 250px;
+  margin-left: 800px;
+    margin-top: 630px;
+    transform: rotate(-12deg);
+  position: absolute;
+}
+.footer-text-white{
+  padding-left: 60px;
+  font-size: 25px;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.footer-text-white-p{
+  padding-left: 90px;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 15px;
+}
+.footer-text{
+  position: absolute;
+  color: white;
+}
+.footer-text-white-2{
+  padding-left: 450px;
+  font-size: 25px;
+  font-family: "Luckiest Guy", cursive;
+}
+.footer-text-white-p-2{
+  padding-left: 480px;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 20px;
+}
