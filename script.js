@@ -1,5 +1,5 @@
 function startTimer() {
-  const startDate = new Date('2025-12-28 03:37:00'); // Ваша дата
+  const startDate = new Date('2025-12-29 03:37:00'); // Ваша дата
   const currentDate = new Date();
   const diff = currentDate - startDate; // Разница в миллисекундах
 
@@ -16,4 +16,5 @@ function startTimer() {
 setInterval(startTimer, 1000);
 
 // Запускаем таймер сразу при загрузке страницы
+
 startTimer();
